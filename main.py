@@ -9,7 +9,7 @@ mu = 0.0
 sigma = 1.0/np.sqrt(1*N)
 
 def obtainGinibreEig(N,mu,sigma):
-    mat = gen.normal(mu,sigma, (N,N)) #+gen.normal(mu,sigma,(N,N))*complex(0,1)
+    mat = gen.normal(mu,sigma, (N,N)) +gen.normal(mu,sigma,(N,N))*complex(0,1)
     #print(mat)
 
     eigenvalues, _= np.linalg.eig(mat)
