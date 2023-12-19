@@ -56,3 +56,29 @@ Zotero
 - Parle d'applications à la physique dans l'introduction
 - introduction des point process methods via la théorie de la mesure et l'usage de probabilités pour en déduire une fonction de corrélation entre les différentes valeurs propres.
 - Formule de la densité de probabilité partielle pour L vp réelles ![Alt text](PartialPDF_GinOE.png)
+- Définition de la matrix kernel de $P^{\omega}$ via une famille de polynomes skew orthogonal qui sont des polynomes qui forment une famille complète au sens de la définition donnée partie 6
+- Au début de la partie 7, on s'aperçoit que c'ets cette Matrix kernel qui permet de calculer la fonction de corrélation $P^{\omega}$ de nos eigenvalues.
+
+## Eigenvalue statistic of the Ginibre real ensemble
+https://arxiv.org/pdf/0706.2020.pdf
+
+- Il est dit que la PFD des vp de GinUE est proportionnelle à l'équation d'onde provoquée par deux fermions dans le plan, s'ils sont au niveau minimal de Landeau et qu'en plus ils sont soumis à un champ magnétique.
+- Pour le cas réel, la PDF n'est pas absolument continue.
+- on voit aussi la PDF absolument immonde pour le cas réel lorsque celle-c ets développée
+- densité des vp complexes et relles pour les GinOE
+- dans la partie 8, les fonctions de corrélation sont données cette fois-ci en fonction de fonctions connues et pas dépendantes d'une famille de polynôme q comme dans le th 4. Cela n'est à priori valable que pour les bulks ou les edges. Reste à regardre proche du centre
+
+## Article avec des exemple d'utilisation des matrices:
+- https://arxiv.org/pdf/1003.2931.pdf
+- https://arxiv.org/pdf/cond-mat/9706055.pdf
+- https://arxiv.org/pdf/cond-mat/9612179.pdf
+- https://arxiv.org/pdf/0706.2020.pdf
+- https://arxiv.org/pdf/math-ph/0507058.pdf
+- https://arxiv.org/pdf/nlin/0207051.pdf
+
+## Liens utiles:
+- faire fiter une courbe avec des lois de probabilités: https://www.stat4decision.com/fr/distribution-donnees-python/
+- https://www.youtube.com/watch?v=w5IbkktHNss
+
+## TAF
+- regarder la vitesse de convergence des fronts des parties imaginaires des vp à mesure que N tend vers l'infini 
