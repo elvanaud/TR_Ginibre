@@ -4,7 +4,7 @@ https://robertsweeneyblanco.github.io/Computational_Random_Matrix_Theory/Home/Ho
 - tracé les vp des matrices de ginibre 1000 fois en 16 16 permet en quelques sortes de visualiser la proba que chaque point du cercle a d'être une valeur propre. L'effet Saturne traduit le fait que proche de l'axe des réels, ces points ont moins de chance d'être des valeurs propres.
 - https://arxiv.org/abs/2205.15054
 - The Random Matrix Technique of Ghosts and Shadows, Alan Edelman: peut etre interessant pour approcher le comportement des matrices de ginibres via goe ou gue ou des ensembles fantomes comme il dit
-- Pour GOE et GUE: plus la taille de la matrice est importante, plus les valeurs propres on un espacement qui est de plus en plus petit. Une idée serait de tracer les valeurs propres de la matrice de ginibre est de regarder si les écarts entre ces valeurs sont plus importants pour les valeurs propres les plus faibles, fortes ou si c'est aléatoire...
+- Pour GOE et GUE: plus la taille de la matrice est importante, plus les valeurs propres on un espacement qui est de plus en plus petit. Une idée serait de tracer les valeurs propres de la matrice de ginibre et de regarder si les écarts entre ces valeurs sont plus importants pour les valeurs propres les plus faibles, fortes ou si c'est aléatoire...
 - https://arxiv.org/abs/math-ph/0501068 ODE solver (à lire vite f): Prolate matrix interessant 
 - https://arxiv.org/abs/solv-int/9509007 Tracy distribution (à lire vite f les cas limites ou N grand)
 - Theorem (Bauer-Fike): Let A∈Cn×n be a diagonlizable matrix such that A=VDV−1 (where V is a matrix of eigenvectors and D is a diagonal matrix of corresponding eigenvalues) and E∈Cn×n. If μ is an eigenvalue of A+E then there exists an eigenvalue of A, denoted λ, such that|μ−λ|≤κ(V)||E||: lien avec une des publis sur ce nombre et le comportement des matrices de ginibre réelles en fonction de si on les perturbe avec une matrice complexe de norme faible: lien avec l'effet saturne.
@@ -68,6 +68,9 @@ https://arxiv.org/pdf/0706.2020.pdf
 - densité des vp complexes et relles pour les GinOE
 - dans la partie 8, les fonctions de corrélation sont données cette fois-ci en fonction de fonctions connues et pas dépendantes d'une famille de polynôme q comme dans le th 4. Cela n'est à priori valable que pour les bulks ou les edges. Reste à regardre proche du centre
 
+## INTRODUCTION AUX MATRICES ALÉATOIRES
+https://www.cmls.polytechnique.fr/xups/xups13-03.pdf
+
 ## Article avec des exemple d'utilisation des matrices:
 - https://arxiv.org/pdf/1003.2931.pdf
 - https://arxiv.org/pdf/cond-mat/9706055.pdf
@@ -82,3 +85,4 @@ https://arxiv.org/pdf/0706.2020.pdf
 
 ## TAF
 - regarder la vitesse de convergence des fronts des parties imaginaires des vp à mesure que N tend vers l'infini 
+
